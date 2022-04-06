@@ -24,10 +24,15 @@
     ~~~~
     python insta-unfollower.py USERNAME PASSWORD
     ~~~~
-6. En tu perfil de instagram aparecerá la solicitud de confirmación de que has iniciado sesión desde otro dispositivo. Debes de seleccionar "Fui yo".
-7. Debes de ***ejecutar*** el algoritmo máximo 8 horas al día alcanzando alrededor de 200 unfollows.
-8.  La ejecución del algoritmo se recomienda realizar ***máximo*** durante 5 días, luego ***suspender*** el uso 1 o 2 días. 
-9.  Los anteriores pasos fueron probados y actualizados para evitar el bloqueo de tu cuenta de instagram por **"Actividad sospechosa"**
+6. Al ejecutar la linea de comando:
+   1.  anterior por primera vez aparecerá el siguiente mensaje: "Please check Instagram app for a security confirmation that it is you trying to login". 
+   2.  En caso positivo, al ingresar a tu cuenta de instagram aparecerá el siguiente mensaje, "Detectamos un intento de inicio de sesión inusual" y solicitará la confirmación de que has iniciado sesión desde otro dispositivo. 
+   3.  Debes de seleccionar "Fui yo".
+   4.  Volver a ejecutar el punto 5 hast que aparezca el siguiente mensaje "You're now logged as usuario"
+7. No cerrar la ventana de ejecución, solo para finalziar ejecución
+8. Debes de ***ejecutar*** el algoritmo máximo 8 horas al día alcanzando alrededor de 200 unfollows.
+9.  La ejecución del algoritmo se recomienda realizar ***máximo*** durante 5 días, luego ***suspender*** el uso 1 o 2 días. 
+10. Los anteriores pasos fueron probados y actualizados para evitar el bloqueo de tu cuenta de instagram por **"Actividad sospechosa"**
 
 ---
 ## Bloqueo de cuenta
