@@ -19,7 +19,7 @@
     ~~~~
 5. Ejecutar cada vez que se requiera desde el cmd el siguiente comando en el programa 
     ~~~~
-    python3 insta-unfollower.py USERNAME PASSWORD
+    python insta-unfollower.py USERNAME PASSWORD
     ~~~~
 1. En tu perfil de instagram aparecerá la solicitud de confirmación de que has iniciado sesión desde otro dispositivo. Debes de seleccionar "Fui yo".
 2. Debes de ***ejecutar*** el algoritmo máximo 8 horas al día alcanzando alrededor de 200 unfollows.
