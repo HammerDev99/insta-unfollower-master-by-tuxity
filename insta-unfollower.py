@@ -9,6 +9,7 @@ import requests, pickle
 import json
 import re
 from datetime import datetime
+import csv
 
 cache_dir = 'cache'
 session_cache = '%s/session.txt' % (cache_dir)
@@ -268,10 +269,24 @@ def main():
     followers_usernames = {user['username'] for user in followers_list}
     unfollow_users_list = [user for user in following_list if user['username'] not in followers_usernames]
 
+    """ print("\nvar followers_list: ", followers_list)
+    print("\nvar followers_usernames: ", followers_usernames)
+    print("\nvar unfollow_users_list: ", unfollow_users_list) """
+
     print('you are following {} user(s) who aren\'t following you:'.format(len(unfollow_users_list)))
+    
+    # Hacer modificación del codigo en esta seccion
+    
+    
+    aux_list = []
     for user in unfollow_users_list:
         print(user['username'])
+        """ aux_list.append(user['username'])
 
+    with open('unfollow_users_list.csv', 'w', newline='') as file:
+        writer = csv.writer(file, quoting=csv.QUOTE_ALL,delimiter=';')
+        writer.writerows(aux_list)
+ """
     if len(unfollow_users_list) > 0:
         print('Begin to unfollow users...')
 
