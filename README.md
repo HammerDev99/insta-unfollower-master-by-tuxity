@@ -22,7 +22,7 @@
     python -m pip install -r .\requirements.txt
     ~~~~
 
-5. Ejecutar cada vez que se requiera desde el cmd el siguiente comando en el programa
+5. Ejecutar cada vez que se requiera desde la carpeta contenedora del programa y usar el siguiente comando desde la terminal
 
     ~~~~cmd
     python insta-unfollower.py USERNAME PASSWORD
