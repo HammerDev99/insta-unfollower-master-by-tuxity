@@ -29,7 +29,7 @@
     ~~~~
 
 6. Al ejecutar la linea de comando:
-   1. anterior por primera vez aparecerá el siguiente mensaje: "Please check Instagram app for a security confirmation that it is you trying to login".
+   1. Por primera vez aparecerá el siguiente mensaje: "Please check Instagram app for a security confirmation that it is you trying to login".
    2. En caso positivo, al ingresar a tu cuenta de instagram aparecerá el siguiente mensaje, "Detectamos un intento de inicio de sesión inusual" y solicitará la confirmación de que has iniciado sesión desde otro dispositivo.
    3. Debes de seleccionar "Fui yo".
    4. Volver a ejecutar el punto 5 hast que aparezca el siguiente mensaje "You're now logged as usuario"
