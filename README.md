@@ -6,9 +6,9 @@
 
 2. Descargar los archivos "insta-unfollower.py" y "requirements.txt" desde el siguiente link:
 
-    [insta-unfollower.py](https://drive.google.com/open?id=1JIMLpJ6ADX5VHkttwMCX5zmODvCPAYXy&authuser=daniel.arbelaez.alvarez%40gmail.com&usp=drive_fs)
+    [insta-unfollower.py](insta-unfollower.py)
 
-    [requirements.txt](https://drive.google.com/open?id=1JDJGuwu5YKxK81dTavIZFb6rhS9J9yhy&authuser=daniel.arbelaez.alvarez%40gmail.com&usp=drive_fs)
+    [requirements.txt](requirements.txt)
 
 3. Abrir la ventana de PowerShell desde la carpeta de descargas o en su defecto la que contenga los archivos descargados:
 
